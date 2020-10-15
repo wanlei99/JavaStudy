@@ -1,0 +1,24 @@
+
+    /**
+     * 根据值查询链表中是否包含该元素
+     * 实现思想：定义一个变量cur，将头元素赋值给变量cur，若链表不为空，则比较
+     * 该值和cur比较，若相等则返回true；若是不相等则和该元素的下一个元素比较，直到找到
+     * 相等的元素。若没有则返回false
+     */
+
+    public boolean contains(T t){
+        Node cur = this.head;
+        //判断是否包含该元素
+        while (cur != null)
+        {
+            if(cur.t.equals(t))
+            {
+                return true;
+            }
+            else
+            {
+                cur = cur.next;
+            }
+        }
+        return false;
+    }
