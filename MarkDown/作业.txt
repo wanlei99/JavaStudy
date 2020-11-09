@@ -1,0 +1,5 @@
+三种排序方式
+        选择   冒泡   插入
+创建对象的方法：至少4种
+
+查询：封装（Encapsulation）继承（inherit）  多态（Polymorphism） 的英文

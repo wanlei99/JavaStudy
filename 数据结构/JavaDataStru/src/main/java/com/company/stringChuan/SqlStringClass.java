@@ -17,17 +17,7 @@ public class SqlStringClass {
         SqlStringClass str = new SqlStringClass(letter);
         SqlStringClass str1 = new SqlStringClass(letter1);
         SqlStringClass strTest = new SqlStringClass(letter1);
-
-
-
-
-            System.out.println(strTest.data);
-
-
-
-
-
-
+        System.out.println(strTest.data);
 
     }
     public static int strCmp(SqlStringClass s, SqlStringClass t) {
